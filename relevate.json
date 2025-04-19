@@ -22,5 +22,241 @@
   },
   "background": {
     "style": "windows"
+  },
+  "topbarLinks": [
+  ],
+  "codeBlock": {
+    "mode": "auto"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "tabs": [
+    {
+      "name": "Components",
+      "url": "content"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "quickstart",
+        {
+          "group": "Editing",
+          "icon": "pen-paintbrush",
+          "pages": [
+            "development",
+            "web-editor"
+          ]
+        },
+        "settings/global",
+        "settings/navigation",
+        "migration"
+      ]
+    },
+    {
+      "group": "Writing Content",
+      "pages": [
+        "page",
+        "text",
+        "image-embeds",
+        "list-table",
+        "code",
+        "reusable-snippets"
+      ]
+    },
+    {
+      "group": "API References",
+      "pages": [
+        "api-playground/overview",
+        {
+          "group": "Using OpenAPI",
+          "icon": "brackets-curly",
+          "pages": [
+            "api-playground/openapi/setup",
+            "api-playground/openapi/writing-openapi",
+            "api-playground/openapi/advanced-features"
+          ]
+        },
+        {
+          "group": "Using MDX",
+          "icon": "markdown",
+          "pages": [
+            "api-playground/mdx/configuration",
+            "api-playground/mdx/authentication"
+          ]
+        },
+        "api-playground/troubleshooting"
+      ]
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        {
+          "icon": "user-lock",
+          "group": "Auth & Personalization",
+          "pages": [
+            "settings/authentication-personalization/authentication",
+            "settings/authentication-personalization/personalization",
+            "settings/authentication-personalization/authentication-vs-personalization",
+            {
+              "group": "Authentication Setup",
+              "pages": [
+                "settings/authentication-personalization/authentication-setup/choosing-a-handshake",
+                "settings/authentication-personalization/authentication-setup/password",
+                "settings/authentication-personalization/authentication-setup/jwt",
+                "settings/authentication-personalization/authentication-setup/oauth",
+                "settings/authentication-personalization/authentication-setup/mintlify"
+              ]
+            },
+            {
+              "group": "Personalization Setup",
+              "pages": [
+                "settings/authentication-personalization/personalization-setup/choosing-a-handshake",
+                "settings/authentication-personalization/personalization-setup/shared-session",
+                "settings/authentication-personalization/personalization-setup/jwt",
+                "settings/authentication-personalization/personalization-setup/oauth"
+              ]
+            },
+            "settings/authentication-personalization/sending-data"
+          ]
+        },
+        "settings/custom-domain",
+        "settings/seo",
+        "settings/broken-links",
+        "settings/versioning",
+        "settings/add-members",
+        "settings/github",
+        "settings/gitlab"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "pages": [
+        {
+          "icon": "code",
+          "group": "Custom Scripts",
+          "pages": [
+            "advanced/custom/css",
+            "advanced/custom/js"
+          ]
+        },
+        {
+          "icon": "folder",
+          "group": "Custom Subdirectory",
+          "pages": [
+            "advanced/subpath/cloudflare",
+            "advanced/subpath/route53-cloudfront",
+            "advanced/subpath/vercel"
+          ]
+        },
+        {
+          "icon": "plug",
+          "group": "Extensions",
+          "pages": [
+            "advanced/widget/chat"
+          ]
+        },
+        {
+          "icon": "brackets-curly",
+          "group": "REST API",
+          "pages": [
+            "advanced/rest-api/overview",
+            "advanced/rest-api/trigger-update",
+            "advanced/rest-api/update-status"
+          ]
+        },
+        "settings/authentication"
+      ]
+    },
+    {
+      "group": "Analytics",
+      "pages": [
+        "integrations/analytics/overview",
+        "integrations/analytics/amplitude",
+        "integrations/analytics/clearbit",
+        "integrations/analytics/fathom",
+        "integrations/analytics/google-analytics",
+        "integrations/analytics/google-tag-manager",
+        "integrations/analytics/heap",
+        "integrations/analytics/hotjar",
+        "integrations/analytics/koala",
+        "integrations/analytics/logrocket",
+        "integrations/analytics/mixpanel",
+        "integrations/analytics/pirsch",
+        "integrations/analytics/plausible",
+        "integrations/analytics/posthog"
+      ]
+    },
+    {
+      "group": "SDKs",
+      "pages": [
+        "integrations/sdks/speakeasy",
+        "integrations/sdks/stainless"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "integrations/support/overview",
+        "integrations/support/intercom",
+        "integrations/support/front"
+      ]
+    },
+    {
+      "group": "Privacy",
+      "pages": [
+        "integrations/privacy/overview",
+        "integrations/privacy/osano"
+      ]
+    },
+    {
+      "group": "Components",
+      "pages": [
+        "content/components/accordions",
+        "content/components/accordion-groups",
+        "content/components/callouts",
+        "content/components/cards",
+        "content/components/card-groups",
+        "content/components/code",
+        "content/components/code-groups",
+        "content/components/frames",
+        "content/components/icons",
+        "content/components/mermaid-diagrams",
+        "content/components/steps",
+        "content/components/tabs",
+        "content/components/tooltips",
+        "content/components/update"
+      ]
+    },
+    {
+      "group": "API Components",
+      "pages": [
+        "content/components/params",
+        "content/components/responses",
+        "content/components/expandables",
+        "content/components/sticky-examples"
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/overview"
+      ]
+    }
+  ],
+  "footer": {
+    "links": [
+    ]
   }
 }

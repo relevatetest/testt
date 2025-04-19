@@ -1,0 +1,26 @@
+{
+  "name": "Relevate",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://relevate.app"
+  },
+  "layout": "sidenav",
+  "favicon": "/favicon.svg",
+  "sidebar": {
+    "items": "border"
+  },
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373"
+  },
+  "api": {
+    "auth": {
+      "method": "bearer"
+    }
+  },
+  "background": {
+    "style": "windows"
+  }
+}
